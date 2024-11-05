@@ -32,7 +32,7 @@ function readBooksFromCSV($csvFile) {
         <p>Enter a book keyword or genre to get recommendations.</p>
         
         <form id="recommendationForm" method="POST">
-            <input type="text" id="bookInput" name="book" placeholder="Enter keyword or genre" required>
+            <input type="text" id="bookInput" name="book" placeholder="Enter Keyword or Genre" required>
             <button type="button" id="submitBtn">Get Recommendation</button>
         </form>
 
